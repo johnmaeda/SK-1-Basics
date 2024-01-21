@@ -1,5 +1,7 @@
 # Hello!
 
+Visit the [Semantic Kernel repo](https://github.com/microsoft/semantic-kernel) to learn more about what this is all about :+).
+
 Hi there! To get started with this repo, you'll need to:
 
 1. Have VS Code running on your machine
