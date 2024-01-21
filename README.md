@@ -11,3 +11,4 @@ Again, hi there! To get started with this repo, you'll need to:
 3. Install Dotnet 8
 4. Clone or fork this repo
 5. Have your OAI or AOAI key ready
+y. When running these notebooks, select `.NET Interactive` for your VS Code Notebook kernel
