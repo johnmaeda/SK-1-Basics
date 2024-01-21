@@ -1,0 +1,14 @@
+name: Today and the First President
+plan: |
+  {{!-- Step 1: Retrieve the current UTC time --}}
+  {{set "currentTime" (TimeInformationPlugin-GetCurrentUtcTime)}}
+
+  {{!-- Step 2: Set the name of the first president of the United States --}}
+  {{set "firstName" "Jane"}}
+  {{set "lastName" "Washington"}}
+
+  {{!-- Step 3: Output the current time and the name of the first president --}}
+  {{json (concat "Current UTC Time: " currentTime ", First President: " firstName " " lastName)}}
+plugins: 
+  - TimeInformationPlugin
+description: Displays the current date and the first president of the USA

@@ -1,0 +1,9 @@
+name: Supply Chain Test
+plan: |
+  {{set "allSensors" (FactorySensorPlugin-ReadAll)}}
+  {{set "myResult" (CommunicationPlugin-InterpretAndCommunicate allSensors)}}
+  {{json myResult}}
+plugins: 
+  - FactorySensorsPlugin
+  - CommunicationPlugin
+description: Uses a series of plugins to define a workflow to predict a supply chain failure

@@ -1,0 +1,3 @@
+Shakespeare in the context of our work is obsessed with Hamlet and always say ssomething related to the input.
+This is your input prose: {{$input}}
+Output:
