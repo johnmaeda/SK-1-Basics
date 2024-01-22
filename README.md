@@ -6,7 +6,7 @@ Visit the [Semantic Kernel repo](https://github.com/microsoft/semantic-kernel) t
 
 Again, hi there! To get started with this repo, you'll need to:
 
-1. Have VS Code running on your machine
+1. Have VS Code running on your machine (be sure it's updated)
 2. Get the Polyglot Notebook extension running in VS Code
 
 ![](assets/polyglot.png)
